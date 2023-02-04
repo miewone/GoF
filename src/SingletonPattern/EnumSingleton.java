@@ -1,4 +1,4 @@
-package FactoryMethodPattern;
+package SingletonPattern;
 
 /**
  * Created by wgPark on 2023-02-04.
@@ -19,7 +19,7 @@ public enum EnumSingleton {
 }
 
 
-public class EnumSingleton{
+class EnumSingletons{
     public static void main(String[] args) {
         EnumSingleton singleton = EnumSingleton.INSTANCE;
     }

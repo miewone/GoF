@@ -1,4 +1,4 @@
-package FactoryMethodPattern;
+package SingletonPattern;
 
 /**
  * Created by wgPark on 2023-02-01.
