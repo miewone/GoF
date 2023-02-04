@@ -44,7 +44,7 @@ public class RemoteLoader {
         CeilingFanOnCommand ceilingFanOnCommand = new CeilingFanOnCommand(ceilingFan);
         CeilingFanHighCommand ceilingFanHighCommand = new CeilingFanHighCommand(ceilingFan);
         Command[] commands = {lightOnKitchenCommand,lightOffKitchenCommand};
-        MacroCommand macroCommand = new MacroCommand();
+//        MacroCommand macroCommand = new MacroCommand();
 
 
         remoteControl.setCommand(0,ceilingFanOnCommand,ceilingFanOnCommand);
