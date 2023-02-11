@@ -1,7 +1,9 @@
+package StrategyPattern;
 
-import Fly.FlyNoWay;
-import Fly.*;
-import QuackPck.*;
+import StrategyPattern.Duck;
+import StrategyPattern.Fly.FlyNoWay;
+import StrategyPattern.Fly.*;
+import StrategyPattern.QuackPck.*;
 
 public class Main {
       public static void main(String[] args){

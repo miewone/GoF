@@ -1,4 +1,4 @@
-package QuackPck;
+package StrategyPattern.QuackPck;
 
 public class Quack implements QuackBehavior{
       public void quack(){

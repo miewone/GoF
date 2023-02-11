@@ -1,4 +1,4 @@
-package QuackPck;
+package StrategyPattern.QuackPck;
 
 public class MuteQuack implements QuackBehavior{
       public void quack(){
