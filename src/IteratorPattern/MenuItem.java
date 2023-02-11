@@ -3,7 +3,7 @@ package IteratorPattern;
 /**
  * Created by wgPark on 2023-02-09.
  */
-public class MenuItem {
+public class MenuItem extends MenuComponent{
     String name;
     String description;
     boolean vegetarian;
@@ -19,6 +19,16 @@ public class MenuItem {
         this.description = description;
         this.vegetarian = vegetarian;
         this.price = price;
+    }
+
+    @Override
+    public void print() {
+        System.out.println("  "+getName());
+        if(isVegetarian()){
+            System.out.println("(v)");
+        }
+        System.out.println(", " + getPrice());
+        System.out.println("     --" + getDescription());
     }
 
     public String getName(){

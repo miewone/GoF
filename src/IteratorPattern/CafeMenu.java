@@ -7,7 +7,7 @@ import java.util.Map;
 /**
  * Created by wgPark on 2023-02-09.
  */
-public class CafeMenu implements Menu{
+public class CafeMenu{
     Map<String, MenuItem> menuItems = new HashMap<String, MenuItem>();
 
     public CafeMenu(){
@@ -19,7 +19,7 @@ public class CafeMenu implements Menu{
         menuItems.put(name,menuItem);
     }
 
-    @Override
+
     public Iterator<MenuItem> createIterator() {
         return menuItems.values().iterator();
     }

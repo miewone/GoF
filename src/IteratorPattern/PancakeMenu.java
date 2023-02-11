@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by wgPark on 2023-02-09.
  */
-public class PancakeMenu implements Menu{
+public class PancakeMenu{
     List<MenuItem> menuItems;
 
     public Iterator<MenuItem> createIterator(){
