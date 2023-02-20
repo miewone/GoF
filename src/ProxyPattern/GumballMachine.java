@@ -10,6 +10,17 @@ public class GumballMachine extends UnicastRemoteObject implements GumballMachin
 
     State soldOutState;
     State noQuarterState;
+
+    @Override
+    public String getLocation() throws RemoteException {
+        return null;
+    }
+
+    @Override
+    public State getState() throws RemoteException {
+        return null;
+    }
+
     State hasQuarterState;
     State soldState;
     State winnerState;
